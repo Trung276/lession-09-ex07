@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do you love me baby????</title>
+</head>
+<body>
+<h1 style="position: absolute; top: 100px; left: 100px">Do you love me baby???</h1>
+<button style="position: absolute; top: 200px; left: 100px" onclick="yes()">YES</button>
+<button style="position: absolute; top: 200px; left: 200px" id="pos" onmouseover="no1(this)" onmouseout="no2(this)">NO</button>
+<script>
+    function no1(x) {
+        x.style.top = "300px";
+        x.style.left = "300px";
+    }
+    function no2(x) {
+        x.style.top = "200px";
+        x.style.left = "200px";
+    }
+    function yes() {
+        alert("YES, I LOVE YOU TOO!!!")
+    }
+</script>
+</body>
+</html>
